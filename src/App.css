@@ -1,38 +1,32 @@
-.App {
-  text-align: center;
+.firebase-form {
+  width: 300px;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.post-list {
+  display: table;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.post-part {
+  display: table-cell;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+/* .post-card {
+  padding-left: 10px;
+} */
+.post-action {
+  width: 50px;
+  cursor: pointer;
 }
-
-.App-link {
-  color: #61dafb;
+.post-delete {
+  background-color: #dc3545;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.post-update {
+  background-color: #0d6efd;
+}
+.post-action-icon {
+  transform: translateX(-50%) translateY(-50%);
+  color: #fff;
+}
+.button {
+  width: 30px;
+  height: 30px;
+  background-color: #0d6efd;
+  cursor: pointer;
 }
